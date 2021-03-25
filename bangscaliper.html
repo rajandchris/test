@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <body style="background-color:rgb(239, 250, 255);"></body>
+<title>Bangs' Chemistry Project</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+	
+	
+ffooter { 
+  display: flex; 
+  align-items: center; 
+} 
+	
+img {
+  border: 5px solid rgb(196, 185, 185);
+}
+
+
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(100, 100, 100);
+  line-height: 1.8;
+}
+
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+</style>
+<body>
+  
+ <div style="width:965px;height:620px;display:inline" id="applet_container">
+</div>
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#intro" class="w3-bar-item w3-button">INTRODUCTION</a>
+    <a href="#densitylab" class="w3-bar-item w3-button">DENSITY PROGRAM</a>
+    <a href="#caliper" class="w3-bar-item w3-button">CALIPER PROGRAM</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    </a>
+  </div>
+ 
+  </div>
+
+<div class="w3-content w3-container w3-padding-64" id="intro">
+  <h3 class="w3-center">Introduction</h3>
+  <p class="w3-center">The main objectives of these programs are to have a greater understanding of density and to learn how to utilize and manipulate a caliper tool. Due to students' inability of conducting these experiment and having access to certain tools, this website offers a way of doing so virtually.
+  </p>
+  <div class="w3-row">
+
+<div class="w3-content w3-container w3-padding-64" id="densitylab">
+  <h3 class="w3-center">Phet Density Program</h3>
+  <div class="w3-row">
+  <iframe src="https://phet.colorado.edu/sims/html/density/latest/density_en.html" width="900" height="600" scrolling="no" allowfullscreen></iframe>
+
+
+<div class="w3-content w3-container w3-padding-64" id="caliper">
+  <h3 class="w3-center">Caliper Simulator</h3>
+  <div class="w3-row">
+
+<html><body>
+ <p>
+  <applet code="Main.class" archive="Caliper.jar"
+   width="740" height="400"></applet>
+ </p>
+ <p>
+  <object codetype="application/java" classid="java:Main.class"
+   archive="Caliper.jar" width="740" height="400"></object>
+ </p>
+</body></html>
+
+  <div class="w3-content w3-container w3-padding-64" id="about">
+<h3 class="w3-center">About</h3>
+	
+<div style="display:inline-block;vertical-align:top;"></div>
+    <img src="bangs.jpg" alt="bangs" width="440" height="600" style="padding: 10px;" >
+</div>
+<div style="display:inline-block;">
+    <div>The COVID-19 Pandemic has changed the way teaching is done.  School closures and safety protocol prevent students from conducting research in a hands-on, physical environment.  Mr. Bangs, along with his group of zero-period research students at the Roselle Park High School, collaborated to emulate the lab process in an online learning environment, enabling students to apply their knowledge into a real-world scenario.</div>
+</div>
+	
+	</div>
+  </div>
+    </div>
+  </div>
+  
+  
+</body>
+	
+  <footer>
+  <b>Created By: Raymond Bangs, Matthew Alvarez, Christopher Luciano, Harnoor Randhawa, Rishabh Raj Dhingra</b>
+ 
+</footer>
+
+	
+<script>
+
+
+
+
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white");
+    }
+}
+
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += "w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+
+<script/>
